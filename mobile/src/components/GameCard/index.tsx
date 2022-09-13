@@ -27,7 +27,7 @@ export function GameCard({ data }: Props) {
       <ImageBackground style={styles.cover} source={data.cover}>
         <LinearGradient colors={THEME.COLORS.FOOTER} style={styles.footer}>
           <Text style={styles.name}>{data.name}</Text>
-          <Text>{data.ads} anúncios</Text>
+          <Text style={styles.ads}>{data.ads} anúncios</Text>
         </LinearGradient>
       </ImageBackground>
     </TouchableOpacity>
